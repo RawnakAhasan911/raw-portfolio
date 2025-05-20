@@ -1,0 +1,1191 @@
+<!DOCTYPE html>
+<html lang="en" class="hydrated"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Md. Rawnak Ahasan - Portfolio</title>
+    <script src="Md.%20Rawnak%20Ahasan%20-%20Portfolio_files/3.4.16"></script>
+    <link href="Md.%20Rawnak%20Ahasan%20-%20Portfolio_files/css2.css" rel="stylesheet">
+    <script src="Md.%20Rawnak%20Ahasan%20-%20Portfolio_files/ionicons.esm.js" type="module"></script>
+    <script src="Md.%20Rawnak%20Ahasan%20-%20Portfolio_files/ionicons.js" nomodule=""></script>
+    <style>
+        * {
+            font-family: 'Poppins', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .bg-gradient {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        
+        .card {
+            transition: all 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        
+        .skill-item {
+            transition: all 0.3s ease;
+        }
+        
+        .skill-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .nav-link {
+            position: relative;
+        }
+        
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover::after {
+            width: 100%;
+        }
+        
+        .animate-fade-in {
+            opacity: 0;
+            animation: fadeIn 1s forwards;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .animate-delay-100 { animation-delay: 0.1s; }
+        .animate-delay-200 { animation-delay: 0.2s; }
+        .animate-delay-300 { animation-delay: 0.3s; }
+        .animate-delay-400 { animation-delay: 0.4s; }
+        
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: 0;
+        }
+        
+        .particle {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            animation: float 15s infinite;
+        }
+        
+        @keyframes float {
+            0% { transform: translateY(0) translateX(0) rotate(0deg); opacity: 1; }
+            50% { transform: translateY(-100px) translateX(100px) rotate(180deg); opacity: 0.5; }
+            100% { transform: translateY(0) translateX(0) rotate(360deg); opacity: 1; }
+        }
+        
+        .achievement-card {
+            transition: all 0.3s ease;
+            overflow: hidden;
+        }
+        
+        .achievement-card:hover .achievement-details {
+            max-height: 500px;
+        }
+        
+        .achievement-details {
+            max-height: 0;
+            transition: max-height 0.5s ease;
+        }
+        
+        /* Dark/Light mode styles */
+        .dark {
+            @apply bg-gray-900 text-white;
+        }
+        
+        .light {
+            @apply bg-gray-100 text-gray-900;
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.visible{visibility:visible}.invisible{visibility:hidden}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-bottom-4{bottom:-1rem}.-bottom-5{bottom:-1.25rem}.-right-4{right:-1rem}.-right-5{right:-1.25rem}.bottom-10{bottom:2.5rem}.bottom-8{bottom:2rem}.left-1\/2{left:50%}.right-8{right:2rem}.z-0{z-index:0}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-2{margin-left:0.5rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-1{margin-top:0.25rem}.mt-16{margin-top:4rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-12{height:3rem}.h-2{height:0.5rem}.h-20{height:5rem}.h-24{height:6rem}.h-48{height:12rem}.h-64{height:16rem}.h-full{height:100%}.min-h-screen{min-height:100vh}.w-12{width:3rem}.w-2{width:0.5rem}.w-20{width:5rem}.w-24{width:6rem}.w-64{width:16rem}.w-full{width:100%}.max-w-3xl{max-width:48rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.-translate-x-1\/2{--tw-translate-x:-50%;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes bounce{0%, 100%{transform:translateY(-25%);animation-timing-function:cubic-bezier(0.8,0,1,1)}50%{transform:none;animation-timing-function:cubic-bezier(0,0,0.2,1)}}.animate-bounce{animation:bounce 1s infinite}.list-inside{list-style-position:inside}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-10{gap:2.5rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-xl{border-radius:0.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-4{border-width:4px}.border-t{border-top-width:1px}.border-blue-400{--tw-border-opacity:1;border-color:rgb(96 165 250 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55 / var(--tw-border-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-red-600{--tw-bg-opacity:1;background-color:rgb(220 38 38 / var(--tw-bg-opacity, 1))}.bg-transparent{background-color:transparent}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.bg-yellow-600{--tw-bg-opacity:1;background-color:rgb(202 138 4 / var(--tw-bg-opacity, 1))}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-4{padding:1rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pt-16{padding-top:4rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-green-800{--tw-text-opacity:1;color:rgb(22 101 52 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-purple-800{--tw-text-opacity:1;color:rgb(107 33 168 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-red-700{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-yellow-300{--tw-text-opacity:1;color:rgb(253 224 71 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.opacity-0{opacity:0}.opacity-75{opacity:0.75}.opacity-100{opacity:1}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:bg-blue-400:hover{--tw-bg-opacity:1;background-color:rgb(96 165 250 / var(--tw-bg-opacity, 1))}.hover\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-green-700:hover{--tw-bg-opacity:1;background-color:rgb(21 128 61 / var(--tw-bg-opacity, 1))}.hover\:bg-purple-700:hover{--tw-bg-opacity:1;background-color:rgb(126 34 206 / var(--tw-bg-opacity, 1))}.hover\:bg-opacity-20:hover{--tw-bg-opacity:0.2}.hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.hover\:underline:hover{-webkit-text-decoration-line:underline;text-decoration-line:underline}.hover\:opacity-100:hover{opacity:1}.focus\:border-transparent:focus{border-color:transparent}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-blue-600:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(37 99 235 / var(--tw-ring-opacity, 1))}@media (min-width: 640px){.sm\:flex-row{flex-direction:row}.sm\:space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.sm\:space-y-0 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0px * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0px * var(--tw-space-y-reverse))}}@media (min-width: 768px){.md\:col-span-2{grid-column:span 2 / span 2}.md\:mb-0{margin-bottom:0px}.md\:flex{display:flex}.md\:hidden{display:none}.md\:h-80{height:20rem}.md\:w-1\/2{width:50%}.md\:w-80{width:20rem}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:justify-start{justify-content:flex-start}.md\:text-left{text-align:left}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}@media (prefers-color-scheme: dark){.dark\:block{display:block}.dark\:hidden{display:none}.dark\:border-gray-600{--tw-border-opacity:1;border-color:rgb(75 85 99 / var(--tw-border-opacity, 1))}.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.dark\:bg-blue-900{--tw-bg-opacity:1;background-color:rgb(30 58 138 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-green-900{--tw-bg-opacity:1;background-color:rgb(20 83 45 / var(--tw-bg-opacity, 1))}.dark\:bg-indigo-900{--tw-bg-opacity:1;background-color:rgb(49 46 129 / var(--tw-bg-opacity, 1))}.dark\:bg-purple-900{--tw-bg-opacity:1;background-color:rgb(88 28 135 / var(--tw-bg-opacity, 1))}.dark\:bg-red-900{--tw-bg-opacity:1;background-color:rgb(127 29 29 / var(--tw-bg-opacity, 1))}.dark\:bg-yellow-900{--tw-bg-opacity:1;background-color:rgb(113 63 18 / var(--tw-bg-opacity, 1))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.dark\:text-blue-200{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.dark\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-green-200{--tw-text-opacity:1;color:rgb(187 247 208 / var(--tw-text-opacity, 1))}.dark\:text-green-400{--tw-text-opacity:1;color:rgb(74 222 128 / var(--tw-text-opacity, 1))}.dark\:text-indigo-400{--tw-text-opacity:1;color:rgb(129 140 248 / var(--tw-text-opacity, 1))}.dark\:text-purple-200{--tw-text-opacity:1;color:rgb(233 213 255 / var(--tw-text-opacity, 1))}.dark\:text-purple-400{--tw-text-opacity:1;color:rgb(192 132 252 / var(--tw-text-opacity, 1))}.dark\:text-red-400{--tw-text-opacity:1;color:rgb(248 113 113 / var(--tw-text-opacity, 1))}.dark\:text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.dark\:hover\:text-blue-400:hover{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}}</style></head>
+<body class="bg-gray-100 dark:bg-gray-900 text-gray-900 dark:text-white transition-colors duration-300" id="top">
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white dark:bg-gray-800 shadow-md z-50 transition-colors duration-300">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600 dark:text-blue-400">RA.</a>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="#home" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Home</a>
+                <a href="#about" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">About</a>
+                <a href="#projects" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Projects</a>
+                <a href="#skills" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Skills</a>
+                <a href="#experience" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Experience</a>
+                <a href="#achievements" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Achievements</a>
+                <a href="#contact" class="nav-link text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400">Contact</a>
+            </div>
+            
+            <div class="flex items-center space-x-4">
+                <button id="theme-toggle" class="p-2 rounded-full bg-gray-200 dark:bg-gray-700 focus:outline-none">
+                    <ion-icon name="moon" class="text-xl dark:hidden md hydrated" role="img" aria-label="moon"></ion-icon>
+                    <ion-icon name="sunny" class="text-xl hidden dark:block text-yellow-300 md hydrated" role="img" aria-label="sunny"></ion-icon>
+                </button>
+                
+                <button id="mobile-menu-button" class="md:hidden focus:outline-none">
+                    <ion-icon name="menu" class="text-2xl md hydrated" role="img" aria-label="menu"></ion-icon>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-white dark:bg-gray-800 shadow-md transition-all duration-300">
+            <div class="container mx-auto px-4 py-3 flex flex-col space-y-3">
+                <a href="#home" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Home</a>
+                <a href="#about" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">About</a>
+                <a href="#projects" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Projects</a>
+                <a href="#skills" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Skills</a>
+                <a href="#experience" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Experience</a>
+                <a href="#achievements" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Achievements</a>
+                <a href="#contact" class="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 py-2">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="min-h-screen flex items-center justify-center relative bg-gradient overflow-hidden pt-16">
+        <div class="particles">
+            <!-- Particles will be generated by JS -->
+        <div class="particle" style="width: 13.9284px; height: 13.9284px; left: 60.5952%; top: 85.5219%; animation-delay: 2.10176s; animation-duration: 17.1723s;"></div><div class="particle" style="width: 12.4959px; height: 12.4959px; left: 43.4239%; top: 26.7747%; animation-delay: 3.85646s; animation-duration: 10.1845s;"></div><div class="particle" style="width: 7.38221px; height: 7.38221px; left: 27.9713%; top: 58.0291%; animation-delay: 1.93461s; animation-duration: 13.3367s;"></div><div class="particle" style="width: 13.7735px; height: 13.7735px; left: 97.0761%; top: 70.9791%; animation-delay: 2.45177s; animation-duration: 13.3968s;"></div><div class="particle" style="width: 17.2589px; height: 17.2589px; left: 66.0477%; top: 67.3185%; animation-delay: 1.90863s; animation-duration: 12.1489s;"></div><div class="particle" style="width: 9.15698px; height: 9.15698px; left: 36.4775%; top: 33.5333%; animation-delay: 0.128515s; animation-duration: 17.8948s;"></div><div class="particle" style="width: 19.6574px; height: 19.6574px; left: 23.5255%; top: 27.3659%; animation-delay: 4.44666s; animation-duration: 15.3264s;"></div><div class="particle" style="width: 15.2961px; height: 15.2961px; left: 75.9643%; top: 53.1342%; animation-delay: 1.61117s; animation-duration: 17.9432s;"></div><div class="particle" style="width: 14.1716px; height: 14.1716px; left: 1.49318%; top: 69.9971%; animation-delay: 2.72421s; animation-duration: 12.0034s;"></div><div class="particle" style="width: 12.3458px; height: 12.3458px; left: 47.6713%; top: 24.6347%; animation-delay: 3.72637s; animation-duration: 12.3593s;"></div><div class="particle" style="width: 13.03px; height: 13.03px; left: 92.2134%; top: 14.2725%; animation-delay: 0.0945634s; animation-duration: 16.393s;"></div><div class="particle" style="width: 16.427px; height: 16.427px; left: 94.1326%; top: 93.6376%; animation-delay: 0.92172s; animation-duration: 16.5227s;"></div><div class="particle" style="width: 16.2065px; height: 16.2065px; left: 80.2161%; top: 98.2193%; animation-delay: 3.70198s; animation-duration: 19.6197s;"></div><div class="particle" style="width: 19.2385px; height: 19.2385px; left: 48.6717%; top: 80.6511%; animation-delay: 4.8838s; animation-duration: 17.2234s;"></div><div class="particle" style="width: 15.6147px; height: 15.6147px; left: 57.7602%; top: 89.589%; animation-delay: 3.03693s; animation-duration: 18.436s;"></div><div class="particle" style="width: 7.3227px; height: 7.3227px; left: 7.10925%; top: 11.216%; animation-delay: 3.93688s; animation-duration: 10.0013s;"></div><div class="particle" style="width: 6.65419px; height: 6.65419px; left: 32.6686%; top: 80.136%; animation-delay: 4.61089s; animation-duration: 19.2888s;"></div><div class="particle" style="width: 7.78285px; height: 7.78285px; left: 79.6118%; top: 89.666%; animation-delay: 2.90663s; animation-duration: 17.1603s;"></div><div class="particle" style="width: 8.03734px; height: 8.03734px; left: 50.1121%; top: 94.8664%; animation-delay: 0.435459s; animation-duration: 13.689s;"></div><div class="particle" style="width: 12.1717px; height: 12.1717px; left: 90.1994%; top: 56.7289%; animation-delay: 2.79216s; animation-duration: 10.8723s;"></div></div>
+        
+        <div class="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between relative z-10 animate-fade-in">
+            <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0">
+                <h1 class="text-4xl md:text-5xl font-bold text-white mb-4 animate-fade-in">
+                    Hi, I'm <span class="text-blue-400">Md. Rawnak Ahasan</span>
+                </h1>
+                <h2 class="text-xl md:text-2xl font-medium text-gray-300 mb-6 animate-fade-in animate-delay-100">
+                    CSE Student | Tech Enthusiast | Passionate about AI, Robotics &amp; Cybersecurity
+                </h2>
+                <p class="text-gray-400 mb-8 animate-fade-in animate-delay-200">
+                    Energetic ENTP-A passionate about solving real-world problems through technology.
+                </p>
+                <div class="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4 animate-fade-in animate-delay-300">
+                    <a href="#" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-all duration-300 flex items-center justify-center">
+                        <ion-icon name="document-text" class="mr-2 md hydrated" role="img" aria-label="document text"></ion-icon>
+                        View Resume
+                    </a>
+                    <a href="#contact" class="px-6 py-3 bg-transparent border-2 border-blue-400 hover:bg-blue-400 hover:bg-opacity-20 text-blue-400 font-medium rounded-lg transition-all duration-300 flex items-center justify-center">
+                        <ion-icon name="mail" class="mr-2 md hydrated" role="img" aria-label="mail"></ion-icon>
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+            
+            <div class="md:w-1/2 flex justify-center animate-fade-in animate-delay-400">
+                <div class="relative">
+                    <div class="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-blue-400 shadow-lg">
+                        <svg class="w-full h-full text-gray-300" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 14.25c4.142 0 7.5-3.358 7.5-7.5S16.142 0 12 0 4.5 3.358 4.5 7.5s3.358 7.5 7.5 7.5zm0 1.5C7.313 15.75 0 18.817 0 23.25V24h24v-.75c0-4.433-7.313-7.5-12-7.5z"></path>
+                        </svg>
+                    </div>
+                    <div class="absolute -bottom-4 -right-4 bg-blue-600 text-white p-4 rounded-full shadow-lg">
+                        <ion-icon name="code-slash" class="text-2xl md hydrated" role="img" aria-label="code slash"></ion-icon>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#about" class="text-white opacity-75 hover:opacity-100 transition-opacity duration-300">
+                <ion-icon name="chevron-down" class="text-3xl md hydrated" role="img" aria-label="chevron down"></ion-icon>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                About Me
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="flex flex-col md:flex-row items-center justify-between">
+                <div class="md:w-1/2 mb-10 md:mb-0">
+                    <div class="relative">
+                        <div class="w-full max-w-md mx-auto bg-gray-100 dark:bg-gray-700 p-8 rounded-lg shadow-lg">
+                            <h3 class="text-2xl font-semibold mb-4 text-blue-600 dark:text-blue-400">Academic Background</h3>
+                            <p class="mb-4 dark:text-gray-300">
+                                I'm currently a 7th semester CSE student
+ at BRAC University, where I'm developing my skills in various aspects 
+of computer science and engineering.
+                            </p>
+                            
+                            <h3 class="text-xl font-semibold mb-2 text-blue-600 dark:text-blue-400">Interests</h3>
+                            <ul class="list-disc list-inside mb-4 dark:text-gray-300">
+                                <li>Artificial Intelligence</li>
+                                <li>Cybersecurity</li>
+                                <li>Robotics</li>
+                                <li>Computer Vision</li>
+                            </ul>
+                            
+                            <h3 class="text-xl font-semibold mb-2 text-blue-600 dark:text-blue-400">Current Goals</h3>
+                            <p class="dark:text-gray-300">
+                                I'm currently focused on mastering the 
+MERN stack and Streamlit to expand my development capabilities.
+                            </p>
+                        </div>
+                        <div class="absolute -bottom-5 -right-5 w-20 h-20 bg-blue-600 rounded-lg z-0"></div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <div class="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="people" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="people"></ion-icon>
+                                </div>
+                                <h3 class="text-xl font-semibold">Roles</h3>
+                            </div>
+                            <ul class="list-disc list-inside dark:text-gray-300">
+                                <li>Executive Member at BRACU Computer Club</li>
+                                <li>Brand Representative &amp; Marketing Affiliate at Interactive Cares</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-md">
+                            <div class="flex items-center mb-4">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="person" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="person"></ion-icon>
+                                </div>
+                                <h3 class="text-xl font-semibold">Personality</h3>
+                            </div>
+                            <p class="dark:text-gray-300">
+                                ENTP-A personality type, I'm a natural 
+problem-solver who enjoys tackling complex challenges with creative 
+solutions.
+                            </p>
+                        </div>
+                        
+                        <div class="bg-gray-100 dark:bg-gray-700 p-6 rounded-lg shadow-md md:col-span-2">
+                            <div class="flex items-center mb-4">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="heart" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="heart"></ion-icon>
+                                </div>
+                                <h3 class="text-xl font-semibold">Lifestyle</h3>
+                            </div>
+                            <p class="dark:text-gray-300">
+                                I maintain a balanced lifestyle that 
+integrates my technical pursuits with spiritual practices, including 
+daily prayers. This balance helps me stay grounded and focused on my 
+goals.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                Projects
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg animate-fade-in">
+                    <div class="h-48 bg-blue-600 flex items-center justify-center">
+                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Algae Bio-Reactor</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Research-oriented project focused on 
+pollution control using algae to absorb CO₂ and purify industrial air.
+                        </p>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Tech Stack:</span>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-full">Environmental Science</span>
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-full">Biotechnology</span>
+                                <span class="px-3 py-1 bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 text-xs rounded-full">Research</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Role:</span>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">Lead Researcher &amp; Presenter</p>
+                        </div>
+                        <button class="project-details-btn w-full py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors duration-300 flex items-center justify-center">
+                            <span>View Details</span>
+                            <ion-icon name="chevron-up" class="ml-2 md hydrated" role="img" aria-label="chevron down"></ion-icon>
+                        </button>
+                        <div class="project-details mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+                                This project involved designing an 
+innovative algae-based bio-reactor model to address air pollution in 
+industrial areas of Dhaka. The system was designed to efficiently absorb
+ CO₂ and other pollutants, providing a sustainable solution for air 
+purification.
+                            </p>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">
+                                The project received recognition for its
+ originality, potential environmental impact, and technical depth at the
+ Anwar Group Presents IPE Carnivesta event.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg animate-fade-in">
+                    <div class="h-48 bg-green-600 flex items-center justify-center">
+                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Line-Following Robot</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Autonomous robot built using Arduino with 
+advanced sensor calibration logic for precise line tracking.
+                        </p>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Tech Stack:</span>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded-full">Arduino</span>
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded-full">C++</span>
+                                <span class="px-3 py-1 bg-green-100 dark:bg-green-900 text-green-800 dark:text-green-200 text-xs rounded-full">Electronics</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Role:</span>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">Lead Developer &amp; Hardware Engineer</p>
+                        </div>
+                        <button class="project-details-btn w-full py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors duration-300 flex items-center justify-center">
+                            <span>View Details</span>
+                            <ion-icon name="chevron-up" class="ml-2 md hydrated" role="img" aria-label="chevron down"></ion-icon>
+                        </button>
+                        <div class="project-details mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+                                Designed and built an autonomous 
+line-following robot using Arduino microcontroller. The project involved
+ sensor integration, motor control, and developing a sophisticated 
+calibration algorithm for accurate line detection.
+                            </p>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">
+                                The robot successfully navigated complex
+ paths with sharp turns and varying line widths, demonstrating the 
+effectiveness of the custom calibration logic implemented.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl overflow-hidden shadow-lg animate-fade-in">
+                    <div class="h-48 bg-purple-600 flex items-center justify-center">
+                        <svg class="w-24 h-24 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"></path>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Modern, responsive personal portfolio website showcasing projects, skills, and experience.
+                        </p>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Tech Stack:</span>
+                            <div class="flex flex-wrap gap-2 mt-2">
+                                <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded-full">HTML/CSS</span>
+                                <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded-full">JavaScript</span>
+                                <span class="px-3 py-1 bg-purple-100 dark:bg-purple-900 text-purple-800 dark:text-purple-200 text-xs rounded-full">Tailwind CSS</span>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <span class="text-sm font-semibold">Role:</span>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mt-1">Designer &amp; Developer</p>
+                        </div>
+                        <button class="project-details-btn w-full py-2 bg-purple-600 hover:bg-purple-700 text-white rounded-lg transition-colors duration-300 flex items-center justify-center">
+                            <span>View Details</span>
+                            <ion-icon name="chevron-up" class="ml-2 md hydrated" role="img" aria-label="chevron down"></ion-icon>
+                        </button>
+                        <div class="project-details mt-4">
+                            <p class="text-gray-600 dark:text-gray-400 text-sm mb-4">
+                                Designed and developed this portfolio 
+website to showcase my projects, skills, and professional experience. 
+The site features responsive design, interactive elements, and smooth 
+animations.
+                            </p>
+                            <p class="text-gray-600 dark:text-gray-400 text-sm">
+                                Built with modern web technologies 
+including Tailwind CSS for styling and JavaScript for interactivity, 
+with a focus on performance and user experience.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                Skills
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Frontend Skills -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                            <ion-icon name="code-slash" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="code slash"></ion-icon>
+                        </div>
+                        <h3 class="text-xl font-bold">Frontend</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+                            <span>HTML</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+                            <span>CSS</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+                            <span>React</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Backend Skills -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
+                            <ion-icon name="server" class="text-2xl text-green-600 dark:text-green-400 md hydrated" role="img" aria-label="server"></ion-icon>
+                        </div>
+                        <h3 class="text-xl font-bold">Backend</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>Express</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>MySQL (basic)</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-green-600 rounded-full mr-2"></div>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Robotics Skills -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="p-3 bg-purple-100 dark:bg-purple-900 rounded-full mr-4">
+                            <ion-icon name="hardware-chip" class="text-2xl text-purple-600 dark:text-purple-400 md hydrated" role="img" aria-label="hardware chip"></ion-icon>
+                        </div>
+                        <h3 class="text-xl font-bold">Robotics</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-purple-600 rounded-full mr-2"></div>
+                            <span>Arduino</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-purple-600 rounded-full mr-2"></div>
+                            <span>C/C++</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-purple-600 rounded-full mr-2"></div>
+                            <span>CircuitSim</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="p-3 bg-yellow-100 dark:bg-yellow-900 rounded-full mr-4">
+                            <ion-icon name="construct" class="text-2xl text-yellow-600 dark:text-yellow-400 md hydrated" role="img" aria-label="construct"></ion-icon>
+                        </div>
+                        <h3 class="text-xl font-bold">Tools</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-yellow-600 rounded-full mr-2"></div>
+                            <span>Git</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-yellow-600 rounded-full mr-2"></div>
+                            <span>VS Code</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-yellow-600 rounded-full mr-2"></div>
+                            <span>Canva</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Currently Learning -->
+                <div class="bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-md">
+                    <div class="flex items-center mb-6">
+                        <div class="p-3 bg-red-100 dark:bg-red-900 rounded-full mr-4">
+                            <ion-icon name="school" class="text-2xl text-red-600 dark:text-red-400 md hydrated" role="img" aria-label="school"></ion-icon>
+                        </div>
+                        <h3 class="text-xl font-bold">Learning</h3>
+                    </div>
+                    
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-red-600 rounded-full mr-2"></div>
+                            <span>MERN Stack</span>
+                        </div>
+                        <div class="skill-item bg-white dark:bg-gray-800 p-3 rounded-lg flex items-center">
+                            <div class="w-2 h-2 bg-red-600 rounded-full mr-2"></div>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                Experience
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Experience 1 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                            <ion-icon name="business" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="business"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Executive Member, Finance Department</h3>
+                            <p class="text-blue-600 dark:text-blue-400 font-medium mb-2">BRAC University Computer Club</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2022 - Present</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Managed budget planning and allocation for club activities</li>
+                                <li>Coordinated workshops and technical events</li>
+                                <li>Developed leadership skills through team management</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 2 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
+                            <ion-icon name="rocket" class="text-2xl text-green-600 dark:text-green-400 md hydrated" role="img" aria-label="rocket"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">General Member, Finance &amp; Marketing Department</h3>
+                            <p class="text-green-600 dark:text-green-400 font-medium mb-2">Robotics Club of BRAC University</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2022 - Present</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Assisted with budget coordination for robotics projects</li>
+                                <li>Helped manage sponsor relationships</li>
+                                <li>Participated in basic robotics training and workshops</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 3 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-purple-100 dark:bg-purple-900 rounded-full mr-4">
+                            <ion-icon name="globe" class="text-2xl text-purple-600 dark:text-purple-400 md hydrated" role="img" aria-label="globe"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">General Member, Computer Society</h3>
+                            <p class="text-purple-600 dark:text-purple-400 font-medium mb-2">IEEE BRACU Student Branch</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2022 - Present</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Contributed to research initiatives</li>
+                                <li>Assisted with technical writing and documentation</li>
+                                <li>Helped coordinate paper presentations and academic events</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 4 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-yellow-100 dark:bg-yellow-900 rounded-full mr-4">
+                            <ion-icon name="flask" class="text-2xl text-yellow-600 dark:text-yellow-400 md hydrated" role="img" aria-label="flask"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">General Secretary</h3>
+                            <p class="text-yellow-600 dark:text-yellow-400 font-medium mb-2">Mohammadpur Government College Science Club</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2019 - 2021</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Founding member of the science club</li>
+                                <li>Led club activities and member recruitment</li>
+                                <li>Organized science fairs and educational events</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 5 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-red-100 dark:bg-red-900 rounded-full mr-4">
+                            <ion-icon name="megaphone" class="text-2xl text-red-600 dark:text-red-400 md hydrated" role="img" aria-label="megaphone"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Brand Representative &amp; Marketing Affiliate</h3>
+                            <p class="text-red-600 dark:text-red-400 font-medium mb-2">Interactive Cares</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2022 - Present</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Represented the brand at various events and platforms</li>
+                                <li>Conducted outreach activities to expand brand awareness</li>
+                                <li>Managed social media marketing campaigns</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Experience 6 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-indigo-100 dark:bg-indigo-900 rounded-full mr-4">
+                            <ion-icon name="briefcase" class="text-2xl text-indigo-600 dark:text-indigo-400 md hydrated" role="img" aria-label="briefcase"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Incharge, Administrative Department</h3>
+                            <p class="text-indigo-600 dark:text-indigo-400 font-medium mb-2">Outlive</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2021 - 2022</p>
+                            <ul class="list-disc list-inside text-gray-600 dark:text-gray-300 text-sm">
+                                <li>Managed project planning and execution</li>
+                                <li>Coordinated marketing initiatives</li>
+                                <li>Oversaw administrative operations</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Volunteering Section -->
+            <h3 class="text-2xl font-bold text-center mt-16 mb-8">Volunteering</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Volunteering 1 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                            <ion-icon name="people" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="people"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Campus Ambassador</h3>
+                            <p class="text-blue-600 dark:text-blue-400 font-medium mb-2">Dhaka City College Language Club</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2021 - 2022</p>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">
+                                Promoted club activities and events on 
+campus, coordinated with student groups, and facilitated language 
+learning initiatives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Volunteering 2 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-green-100 dark:bg-green-900 rounded-full mr-4">
+                            <ion-icon name="school" class="text-2xl text-green-600 dark:text-green-400 md hydrated" role="img" aria-label="school"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Senior Coordinator, Academics Department</h3>
+                            <p class="text-green-600 dark:text-green-400 font-medium mb-2">Quests of Latent Talent</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2020 - 2021</p>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">
+                                Coordinated academic programs, mentored 
+students, and organized educational workshops to help develop hidden 
+talents.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Volunteering 3 -->
+                <div class="card bg-white dark:bg-gray-800 rounded-xl p-6 shadow-lg animate-fade-in">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-purple-100 dark:bg-purple-900 rounded-full mr-4">
+                            <ion-icon name="star" class="text-2xl text-purple-600 dark:text-purple-400 md hydrated" role="img" aria-label="star"></ion-icon>
+                        </div>
+                        <div>
+                            <h3 class="text-xl font-bold mb-1">Official Apostle</h3>
+                            <p class="text-purple-600 dark:text-purple-400 font-medium mb-2">Anirgon</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">2019 - 2020</p>
+                            <p class="text-gray-600 dark:text-gray-300 text-sm">
+                                Served as an official representative, 
+promoting community engagement and participating in outreach activities.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="py-20 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                Achievements
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- Achievement 1 -->
+                <div class="achievement-card bg-gray-100 dark:bg-gray-700 rounded-xl p-6 shadow-lg mb-8">
+                    <div class="flex items-start">
+                        <div class="p-3 bg-yellow-100 dark:bg-yellow-900 rounded-full mr-4">
+                            <ion-icon name="trophy" class="text-2xl text-yellow-600 dark:text-yellow-400 md hydrated" role="img" aria-label="trophy"></ion-icon>
+                        </div>
+                        <div class="flex-1">
+                            <div class="flex justify-between items-start">
+                                <h3 class="text-xl font-bold mb-1">2nd Runner-up – Poster Presentation</h3>
+                                <button class="achievement-toggle p-2 focus:outline-none">
+                                    <ion-icon name="chevron-down" class="text-xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="chevron down"></ion-icon>
+                                </button>
+                            </div>
+                            <p class="text-blue-600 dark:text-blue-400 font-medium mb-2">Algae Bio-Reactor Project</p>
+                            <p class="text-gray-500 dark:text-gray-400 text-sm mb-4">Event: Anwar Group Presents IPE Carnivesta</p>
+                            
+                            <div class="achievement-details">
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                                    <strong>Organizer:</strong> AUST IPE Society
+                                </p>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm mb-3">
+                                    <strong>Description:</strong> Presented an innovative algae-based bio-reactor model designed to absorb CO₂ and purify industrial air in Dhaka.
+                                </p>
+                                <p class="text-gray-600 dark:text-gray-300 text-sm">
+                                    <strong>Recognition:</strong> The 
+project was recognized for its originality, potential environmental 
+impact, and technical depth. The bio-reactor design demonstrated a 
+practical approach to addressing air pollution in industrial areas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-100 dark:bg-gray-900 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-3xl font-bold text-center mb-16 relative">
+                Contact Me
+                <span class="block w-20 h-1 bg-blue-600 mx-auto mt-2"></span>
+            </h2>
+            
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="md:w-1/2">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg h-full">
+                        <h3 class="text-2xl font-bold mb-6">Get In Touch</h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-8">
+                            Feel free to reach out if you have any questions, opportunities, or just want to connect!
+                        </p>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="mail" class="text-xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="mail"></ion-icon>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-1">Email</h4>
+                                    <a href="mailto:rawnakahasan1306@gmail.com" class="text-blue-600 dark:text-blue-400 hover:underline">rawnakahasan1306@gmail.com</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="logo-linkedin" class="text-xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo linkedin"></ion-icon>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-1">LinkedIn</h4>
+                                    <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">linkedin.com/in/rawnak-ahasan</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="logo-github" class="text-xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo github"></ion-icon>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-1">GitHub</h4>
+                                    <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">github.com/rawnak-ahasan</a>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mr-4">
+                                    <ion-icon name="logo-facebook" class="text-xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo facebook"></ion-icon>
+                                </div>
+                                <div>
+                                    <h4 class="text-lg font-semibold mb-1">Facebook</h4>
+                                    <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">facebook.com/rawnak.ahasan</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="md:w-1/2">
+                    <div class="bg-white dark:bg-gray-800 rounded-xl p-8 shadow-lg">
+                        <h3 class="text-2xl font-bold mb-6">Send a Message</h3>
+                        <form id="contact-form" class="space-y-6">
+                            <div>
+                                <label for="name" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Name</label>
+                                <input type="text" id="name" name="name" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required="">
+                            </div>
+                            
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Email</label>
+                                <input type="email" id="email" name="email" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required="">
+                            </div>
+                            
+                            <div>
+                                <label for="message" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-1">Message</label>
+                                <textarea id="message" name="message" rows="5" class="w-full px-4 py-2 border border-gray-300 dark:border-gray-600 rounded-lg focus:ring-2 focus:ring-blue-600 focus:border-transparent bg-white dark:bg-gray-700 text-gray-900 dark:text-white" required=""></textarea>
+                            </div>
+                            
+                            <button type="submit" class="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-medium rounded-lg transition-colors duration-300 flex items-center justify-center">
+                                <span>Send Message</span>
+                                <ion-icon name="paper-plane" class="ml-2 md hydrated" role="img" aria-label="paper plane"></ion-icon>
+                            </button>
+                        </form>
+                        <div id="form-success" class="hidden mt-4 p-4 bg-green-100 text-green-700 rounded-lg">
+                            Thank you for your message! I'll get back to you soon.
+                        </div>
+                        <div id="form-error" class="hidden mt-4 p-4 bg-red-100 text-red-700 rounded-lg">
+                            There was an error sending your message. Please try again later.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="py-16 bg-white dark:bg-gray-800 transition-colors duration-300">
+        <div class="container mx-auto px-4 animate-fade-in">
+            <h2 class="text-2xl font-bold text-center mb-10">Tech Stack Used in This Site</h2>
+            
+            <div class="max-w-3xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="logo-html5" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo html5"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">HTML5</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="logo-css3" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo css3"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">Tailwind CSS</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="logo-javascript" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo javascript"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">JavaScript</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="logo-github" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="logo github"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">GitHub Pages</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="mail" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="mail"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">FormSubmit</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="color-palette" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="color palette"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">Animations</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="moon" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="moon"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">Dark Mode</h3>
+                </div>
+                
+                <div class="bg-gray-100 dark:bg-gray-700 p-4 rounded-lg text-center">
+                    <div class="p-3 bg-blue-100 dark:bg-blue-900 rounded-full mx-auto mb-3 w-12 h-12 flex items-center justify-center">
+                        <ion-icon name="phone-portrait" class="text-2xl text-blue-600 dark:text-blue-400 md hydrated" role="img" aria-label="phone portrait"></ion-icon>
+                    </div>
+                    <h3 class="font-semibold">Responsive</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 bg-gray-900 text-white">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <h3 class="text-xl font-bold">Md. Rawnak Ahasan</h3>
+                    <p class="text-gray-400">CSE Student | Tech Enthusiast</p>
+                </div>
+                
+                <div class="flex space-x-4">
+                    <a href="#" class="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors duration-300">
+                        <ion-icon name="logo-github" class="text-xl md hydrated" role="img" aria-label="logo github"></ion-icon>
+                    </a>
+                    <a href="#" class="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors duration-300">
+                        <ion-icon name="logo-linkedin" class="text-xl md hydrated" role="img" aria-label="logo linkedin"></ion-icon>
+                    </a>
+                    <a href="#" class="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors duration-300">
+                        <ion-icon name="logo-facebook" class="text-xl md hydrated" role="img" aria-label="logo facebook"></ion-icon>
+                    </a>
+                    <a href="mailto:rawnakahasan1306@gmail.com" class="p-2 bg-gray-800 rounded-full hover:bg-blue-600 transition-colors duration-300">
+                        <ion-icon name="mail" class="text-xl md hydrated" role="img" aria-label="mail"></ion-icon>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-8 pt-8 border-t border-gray-800 text-center">
+                <p class="text-gray-400">© 2023 Md. Rawnak Ahasan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-8 right-8 p-3 bg-blue-600 text-white rounded-full shadow-lg transition-all duration-300 opacity-0 invisible">
+        <ion-icon name="arrow-up" class="text-xl md hydrated" role="img" aria-label="arrow up"></ion-icon>
+    </button>
+
+    <script>
+        // Mobile Menu Toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+        
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+        
+        // Dark/Light Mode Toggle
+        const themeToggle = document.getElementById('theme-toggle');
+        const htmlElement = document.documentElement;
+        
+        // Check for saved theme preference or use system preference
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            htmlElement.classList.add('dark');
+        } else {
+            htmlElement.classList.remove('dark');
+        }
+        
+        themeToggle.addEventListener('click', () => {
+            htmlElement.classList.toggle('dark');
+            localStorage.setItem('theme', htmlElement.classList.contains('dark') ? 'dark' : 'light');
+        });
+        
+        // Project Details Toggle
+        const projectDetailsBtns = document.querySelectorAll('.project-details-btn');
+        projectDetailsBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                const details = btn.nextElementSibling;
+                details.classList.toggle('hidden');
+                
+                const icon = btn.querySelector('ion-icon');
+                if (details.classList.contains('hidden')) {
+                    icon.setAttribute('name', 'chevron-down');
+                } else {
+                    icon.setAttribute('name', 'chevron-up');
+                }
+            });
+        });
+        
+        // Achievement Details Toggle
+        const achievementToggles = document.querySelectorAll('.achievement-toggle');
+        achievementToggles.forEach(toggle => {
+            toggle.addEventListener('click', () => {
+                const card = toggle.closest('.achievement-card');
+                card.classList.toggle('active');
+                
+                const icon = toggle.querySelector('ion-icon');
+                if (card.classList.contains('active')) {
+                    icon.setAttribute('name', 'chevron-up');
+                } else {
+                    icon.setAttribute('name', 'chevron-down');
+                }
+            });
+        });
+        
+        // Back to Top Button
+        const backToTopButton = document.getElementById('back-to-top');
+        
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.remove('opacity-0', 'invisible');
+                backToTopButton.classList.add('opacity-100', 'visible');
+            } else {
+                backToTopButton.classList.add('opacity-0', 'invisible');
+                backToTopButton.classList.remove('opacity-100', 'visible');
+            }
+        });
+        
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+        
+        // Contact Form Submission
+        const contactForm = document.getElementById('contact-form');
+        const formSuccess = document.getElementById('form-success');
+        const formError = document.getElementById('form-error');
+        
+        contactForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+            
+            // In a real implementation, you would send the form data to a server
+            // For this demo, we'll just show the success message
+            formSuccess.classList.remove('hidden');
+            contactForm.reset();
+            
+            // Hide success message after 5 seconds
+            setTimeout(() => {
+                formSuccess.classList.add('hidden');
+            }, 5000);
+        });
+        
+        // Create animated particles in the background
+        const createParticles = () => {
+            const particlesContainer = document.querySelector('.particles');
+            const particleCount = 20;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.classList.add('particle');
+                
+                // Random size between 5px and 20px
+                const size = Math.random() * 15 + 5;
+                particle.style.width = `${size}px`;
+                particle.style.height = `${size}px`;
+                
+                // Random position
+                const posX = Math.random() * 100;
+                const posY = Math.random() * 100;
+                particle.style.left = `${posX}%`;
+                particle.style.top = `${posY}%`;
+                
+                // Random animation delay
+                particle.style.animationDelay = `${Math.random() * 5}s`;
+                
+                // Random animation duration
+                particle.style.animationDuration = `${Math.random() * 10 + 10}s`;
+                
+                particlesContainer.appendChild(particle);
+            }
+        };
+        
+        // Initialize particles
+        createParticles();
+        
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-fade-in');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+        
+        // Observe all sections
+        document.querySelectorAll('section > div.container').forEach(section => {
+            observer.observe(section);
+        });
+        
+        // Observe all cards
+        document.querySelectorAll('.card').forEach(card => {
+            observer.observe(card);
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'942b74548645c0db',t:'MTc0Nzc0MDEyNy4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script><iframe height="1" width="1" style="position: absolute; top: 0px; left: 0px; border: medium; visibility: hidden;"></iframe>
+
+</body></html>
